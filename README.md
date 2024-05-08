@@ -6,6 +6,7 @@ I've previously made an open-source differential drive platform, quadruped, and 
 There are many odes to [Ismail al-Jazari](https://en.wikipedia.org/wiki/Ismail_al-Jazari) throughout this project (e.g. the RL model being named Jazari). He was a Muslim polymath inventor from the 12th century known as the "father of robotics" due to his groundbreaking work in automata, and happens to be a personal inspiration of mine.
 
 ### Current Status & Logbook
+I have a joint with an embedded magnetic encoder working. Currently working on a custom transmission to rotate the motor 90 degrees to be inline to keep the finger compact and the joints serially composable.
 <img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/> 
 
 See [the logbook](logbook.md) for more detailed progress updates.
