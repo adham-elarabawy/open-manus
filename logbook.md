@@ -4,7 +4,7 @@
 I am just summarizing these, since I didn't write logs for some of the sparse earlier work I did here.
 
 First, I created a bare-bones test to recreate the servo gearbox from scratch. The goal here was to prove that I can replicate the gearbox in a parameterized manner, such that I can integrate it into the body of the finger for compactness.
-![alt text](assets/mk0.png)
+<img src="assets/mk0.png" width="425"/>
 
 Then, I built a simple enclosure around it, since the gearbox was snagging due to plate flexture.
 
