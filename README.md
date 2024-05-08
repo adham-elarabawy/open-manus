@@ -20,3 +20,6 @@ See [TBD] for my logbook.
 
 ### Helpful Resources
  - [Will Cogley's Bionic Hand](https://www.youtube.com/watch?v=Iej2jkwU-ts) - I found his videos to be deeply interesting, but felt conflicted about the wire-driven joints. I felt that a direct-drive hand would make assembly/control/maintenance easier, and posed some interesting challenges, so decided to make my own direct-drive design. Ultimately, this was a great project, and his videos are wonderful to watch, even if only for entertainment.
+
+### Tools used
+ - Slightly modified Prusa MK3 (reprinted all parts using Formlabs Fuse 1 SLS Printer).
