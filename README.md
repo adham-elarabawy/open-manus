@@ -14,6 +14,7 @@ See [the logbook](logbook.md) for more detailed progress updates.
 ### High-Level Milestones
  - [x] _**[Mechanical]**_ Joint prototype. (See [May 5th update in logbook](logbook.md#older-than-may-5-2024))
  - [ ] _**[Mechanical]**_ Joint prototype with compact inline motor (custom transmission).
+ - [ ] Finalize scale relative to human hand.
  - [ ] _**[Mechanical]**_ Control / Torque analysis.
  - [ ] _**[Mechanical]**_ Full Forefinger prototype.
  - [ ] _**[Control]**_ Finger range-of-motion analysis.
