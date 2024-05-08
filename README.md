@@ -11,6 +11,10 @@ There are many odes to [Ismail al-Jazari](https://en.wikipedia.org/wiki/Ismail_a
  - [ ] _**[Mechanical]**_ Full Forefinger prototype.
  - [ ] _**[Control]**_ Finger range-of-motion analysis.
 
+TODO: Fill this out for a longer horizon (control, RL, planning, etc).
+
+TODO: Formalize success criterion.
+
 ### Logbook
 See [TBD] for my logbook.
 
