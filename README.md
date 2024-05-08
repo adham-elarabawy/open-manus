@@ -1,5 +1,5 @@
-# open-hand
-An open-source 3D-printed direct-drive bionic hand.
+# open-manus
+An open-source 3D-printed direct-drive bionic hand. Manus is latin for hand.
 ### Motivations
 I've previously made an open-source differential drive platform, quadruped, and star tracker, which all had interesting design, control, and mechanical challenges. My day job is currently a Machine Learning Research Engineer at a legal AI startup called [Harvey](https://www.harvey.ai) where I work on composing large language models into useful legal assistants, but ultimately my passion (and foray into machine learning) has always been robotics. Currently, I'm most interested in controllability and machine learning/reinforcement learning in the context of robotics, and I feel that building and training models to control a bionic hand will function to keep me up-to-date with the machine learning literature and keep me connected to my first love (robotics).
 ### High-Level Milestones
