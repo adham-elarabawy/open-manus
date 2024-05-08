@@ -23,3 +23,4 @@ See [TBD] for my logbook.
 
 ### Tools used
  - [3D Printer] Slightly modified Prusa MK3 (reprinted all printer parts using Formlabs Fuse 1 SLS Printer).
+ - [Literature Review] Zotero.
