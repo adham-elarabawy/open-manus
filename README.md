@@ -10,6 +10,11 @@ I have a joint with an embedded magnetic encoder working. Currently working on a
 
 <img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/> 
 
+Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out:
+
+<img src="assets/transmission.png" width="425"/>
+
+
 See [the logbook](logbook.md) for more detailed progress updates.
 ### High-Level Milestones
  - [x] _**[Mechanical]**_ Joint prototype. (See [May 5th update in logbook](logbook.md#older-than-may-5-2024))

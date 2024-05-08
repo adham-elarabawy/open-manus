@@ -1,9 +1,17 @@
-# Logbook (chronological order)
+# Logbook (inverse chronological order)
+
+
+### May 5, 2024
+Updated the repo readme, added milestones, assets, logbook, and motivations.
+Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out:
+
+<img src="assets/transmission.png" width="425"/>
 
 ### Older than May 5, 2024
 I am just summarizing these, since I didn't write logs for some of the sparse earlier work I did here.
 
 First, I created a bare-bones test to recreate the servo gearbox from scratch. The goal here was to prove that I can replicate the gearbox in a parameterized manner, such that I can integrate it into the body of the finger for compactness.
+
 <img src="assets/mk0.png" width="425"/>
 
 Then, I built a simple enclosure around it, since the gearbox was snagging due to plate flexture.
@@ -25,6 +33,3 @@ Then, I did some more work around the encoder to better conform to the narrow sp
 
 
 <img src="assets/mk6.png" width="425"/> <img src="assets/mk6_section_view.png" width="425"/> 
-
-### May 5, 2024
-Updated the repo readme, added milestones, assets, logbook, and motivations.
