@@ -1,6 +1,13 @@
 # open-manus
 An open-source 3D-printed direct-drive bionic hand. Manus is latin for hand.
 
+#### Table of Contents
+1. [Current Status & Logbook](#current-status--logbook)
+2. [Motivations](#motivations)
+3. [High-Level Milestones](#high-level-milestones)
+4. [Helpful Resources](#helpful-resources)
+5. [Tools Used](#tools-used)
+
 ### Current Status & Logbook
 I have a joint with an embedded magnetic encoder working. Currently working on a custom transmission to rotate the motor 90 degrees to be inline to keep the finger compact and the joints serially composable.
 
