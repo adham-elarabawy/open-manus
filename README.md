@@ -5,7 +5,7 @@ I've previously made an open-source differential drive platform, quadruped, and 
 
 There are many odes to [Ismail al-Jazari](https://en.wikipedia.org/wiki/Ismail_al-Jazari) throughout this project (e.g. the RL model being named Jazari). He was a Muslim polymath inventor from the 12th century known as the "father of robotics" due to his groundbreaking work in automata, and happens to be a personal inspiration of mine.
 ### High-Level Milestones
- - [x] _**[Mechanical]**_ Joint prototype. (See May 5th update in [logbook](logbook.md))
+ - [x] _**[Mechanical]**_ Joint prototype. (See [May 5th update in logbook](logbook.md#older-than-may-5-2024))
  - [ ] _**[Mechanical]**_ Joint prototype with compact inline motor (custom transmission).
  - [ ] _**[Mechanical]**_ Control / Torque analysis.
  - [ ] _**[Mechanical]**_ Full Forefinger prototype.
