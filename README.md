@@ -13,7 +13,7 @@ I have a joint with an embedded magnetic encoder working. Currently working on a
 
 <img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/> <img src="assets/mk6_render.png" width="250"/> 
 
-Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out:
+Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out (see schematic below). For the coupler between the motor shaft (1.5mm) and the transmission shaft (2mm) in the diagram, I was unable to find an off-the-shelf solution, so am going to 3d print my own coupler. [Found a nice resource on YT on best practices to 3d print holes.](https://www.youtube.com/watch?v=Bd7Yyn61XWQ&pp=ygUOM2QgcHJpbnQgaG9sZXM%3D).
 
 <img src="assets/transmission.png" width="425"/>
 
@@ -39,6 +39,7 @@ TODO: Formalize success criterion.
 
 ### Helpful Resources
  - [Will Cogley's Bionic Hand](https://www.youtube.com/watch?v=Iej2jkwU-ts) - I found his videos to be deeply interesting, but felt conflicted about the wire-driven joints. I felt that a direct-drive hand would make assembly/control/maintenance easier, and posed some interesting challenges, so decided to make my own direct-drive design. Ultimately, this was a great project, and his videos are wonderful to watch, even if only for entertainment.
+ - [Nice resource on best practices to 3d print holes](https://www.youtube.com/watch?v=Bd7Yyn61XWQ&pp=ygUOM2QgcHJpbnQgaG9sZXM%3D).
 
 ### Tools used
  - [3D Printer] Slightly modified Prusa MK3 (reprinted all printer parts using Formlabs Fuse 1 SLS Printer).
