@@ -8,7 +8,7 @@ There are many odes to [Ismail al-Jazari](https://en.wikipedia.org/wiki/Ismail_a
 ### Current Status & Logbook
 I have a joint with an embedded magnetic encoder working. Currently working on a custom transmission to rotate the motor 90 degrees to be inline to keep the finger compact and the joints serially composable.
 
-<img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/> 
+<img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/> <img src="assets/mk6_render.png" width="250"/> 
 
 Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out:
 
