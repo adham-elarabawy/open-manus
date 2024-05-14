@@ -1,6 +1,8 @@
 # open-manus
 An open-source 3D-printed direct-drive bionic hand. Manus is latin for hand.
 
+<img src="assets/mk6_render.png" width="300"/>
+
 #### Table of Contents
 1. [Current Status & Logbook](#current-status--logbook)
 2. [Motivations](#motivations)
@@ -11,7 +13,7 @@ An open-source 3D-printed direct-drive bionic hand. Manus is latin for hand.
 ### Current Status & Logbook
 I have a joint with an embedded magnetic encoder working. Currently working on a custom transmission to rotate the motor 90 degrees to be inline to keep the finger compact and the joints serially composable.
 
-<img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/> <img src="assets/mk6_render.png" width="250"/> 
+<img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/>  
 
 Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out (see schematic below). For the coupler between the motor shaft (1.5mm) and the transmission shaft (2mm) in the diagram, I was unable to find an off-the-shelf solution, so am going to 3d print my own coupler. [Found a nice resource on YT on best practices to 3d print holes.](https://www.youtube.com/watch?v=Bd7Yyn61XWQ&pp=ygUOM2QgcHJpbnQgaG9sZXM%3D).
 
