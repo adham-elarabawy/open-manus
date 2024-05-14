@@ -13,7 +13,7 @@ I have a joint with an embedded magnetic encoder working. Currently working on a
 
 <img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/> <img src="assets/mk6_render.png" width="250"/> 
 
-Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out (see schematic below). For the coupler between the motor shaft (1.5mm) and the transmission shaft (2mm) in the diagram, I was unable to find an off-the-shelf solution, so am going to 3d print my own coupler. [Found a nice resource on YT on best practices to 3d print holes.](https://www.youtube.com/watch?v=Bd7Yyn61XWQ&pp=ygUOM2QgcHJpbnQgaG9sZXM%3D).
+Also, drafted a schematic for the transmission that will allow me to rotate the motor 90 degrees to be inline with the rest of the joint without jutting out (see schematic below). For the coupler between the motor shaft (1.5mm) and the transmission shaft (2mm) in the diagram, I was unable to find an off-the-shelf solution, so am going to 3d print my own coupler. [Found a nice resource on YT on best practices to 3d print holes](https://www.youtube.com/watch?v=Bd7Yyn61XWQ&pp=ygUOM2QgcHJpbnQgaG9sZXM%3D).
 
 <img src="assets/transmission.png" width="425"/>
 
