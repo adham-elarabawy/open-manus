@@ -1,7 +1,9 @@
 # open-manus
 An open-source 3D-printed direct-drive bionic hand. Manus is latin for hand.
 
-<img src="assets/mk6_render.png" width="300"/>
+I'm almost done with the joint connecting the middle and distal phalanges (labeled and highlighted in blue below).
+
+<img src="assets/mk6_render.png" height="250"/> <img src="assets/mk6_hand_bone_anatomy_diagram.png" height="250"/>
 
 #### Table of Contents
 1. [Current Status & Logbook](#current-status--logbook)
