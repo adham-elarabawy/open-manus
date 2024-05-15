@@ -1,5 +1,5 @@
 # open-manus
-An open-source 3D-printed direct-drive bionic hand. Manus is latin for hand.
+An **open-source**, **3D-printed**, **direct-drive**, **1:1.5 scale** bionic hand. Manus is latin for hand.
 
 <img src="assets/mk6_render.png" width="300"/>
 
