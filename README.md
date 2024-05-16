@@ -21,6 +21,9 @@ Also, drafted a schematic for the transmission that will allow me to rotate the 
 
 <img src="assets/transmission.png" width="425"/>
 
+I am also considering a few design choices to reduce the width of the joint:
+<img src="assets/areas_for_improvement_diagram.png" height="400"/>
+
 
 See [the logbook](logbook.md) for more detailed progress updates.
 
