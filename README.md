@@ -34,16 +34,25 @@ I've previously made an open-source [differential drive platform](https://www.ad
 There are many odes to [Ismail al-Jazari](https://en.wikipedia.org/wiki/Ismail_al-Jazari) throughout this project (e.g. the RL model being named Jazari). He was a Muslim polymath inventor from the 12th century known as the "father of robotics" due to his groundbreaking work in automata, and happens to be a personal inspiration of mine.
 
 ### High-Level Milestones
- - [x] _**[Mechanical]**_ Joint prototype. (See [May 5th update in logbook](logbook.md#older-than-may-5-2024))
- - [ ] _**[Mechanical]**_ Joint prototype with compact inline motor (custom transmission).
- - [ ] Finalize scale relative to human hand.
- - [ ] _**[Mechanical]**_ Control / Torque analysis.
- - [ ] _**[Mechanical]**_ Full Forefinger prototype.
- - [ ] _**[Control]**_ Finger range-of-motion analysis.
-
-TODO: Fill this out for a longer horizon (control, RL, planning, etc).
-
-TODO: Formalize success criterion.
+#### Development Checklist for single interphalangeal joint
+##### 1. Mechanical Design
+- [x] Implement basic gearbox.
+- [x] Test out basic gearbox.
+- [x] Implement custom rotated transmission for compactness.
+- [ ] Test out custom rotated transmission.
+- [ ] Implement clean design for finger housing (and easy assembly).
+- [ ] Compose the interphalangeal joints to make 2 joints in series.
+##### 2. Control System Design
+- [x] Derive MPC controller for impedance control via current sensing.
+- [x] Formalize MPC controller design in a small whitepaper.
+- [ ] Calibrate MPC controller gains.
+- [ ] Test out MPC controller on simple servo.
+- [ ] Test out MPC controller on custom interphalangeal joint.
+##### 3. Hardware Design
+- [ ] Implement basic end-to-end circuit (shunt resistor for current, encoder, microcontroller).
+- [ ] Decide if I want to centralize all of the electronics and control or if they should be partially distributed via CAN bus for easier wiring.
+- [ ] Design PCBs.
+- [ ] Get PCBs made.
 
 ### Helpful Resources
  - [Will Cogley's Bionic Hand](https://www.youtube.com/watch?v=Iej2jkwU-ts) - I found his videos to be deeply interesting, but felt conflicted about the wire-driven joints. I felt that a direct-drive hand would make assembly/control/maintenance easier, and posed some interesting challenges, so decided to make my own direct-drive design. Ultimately, this was a great project, and his videos are wonderful to watch, even if only for entertainment.
