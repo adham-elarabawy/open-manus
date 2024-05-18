@@ -1,10 +1,9 @@
 # Logbook (inverse chronological order)
 
-## One Joint
-
-I'm currently focused on getting one joint completely built, controllable, and characterized.
 
 #### Development Checklist for single interphalangeal joint
+I'm currently focused on getting one joint completely built, controllable, and characterized.
+
 ##### 1. Mechanical Design
 - [x] Implement basic gearbox.
 - [x] Test out basic gearbox.
@@ -25,9 +24,16 @@ I'm currently focused on getting one joint completely built, controllable, and c
 - [ ] Get PCBs made.
 
 ### May 18th, 2024
-I designed the MPC controller for impedance control (stiffness/damping) using current sensing! I even wrote up a whitepaper that walks through the derivation and has a psuedocode section for algorithm implementation.
+I designed the MPC controller for impedance control (stiffness/damping) using current sensing! I even wrote up [a whitepaper](assets/OpenManus_MPC_Controller.pdf) that walks through the derivation and has a psuedocode section for algorithm implementation.
 
-I also worked a bit on the rotated transmission and figured out a way to make everything much more compact.
+I annotated some of the flaws of the MK6 design below, and have already addressed a few in the new gearbox:
+
+<img src="assets/areas_for_improvement_diagram.png" width="700"/>
+
+
+<img src="assets/mk7_partial_gearbox.png" height="250"/> <img src="assets/mk7_partial_gearbox_above.png" height="250"/>
+
+
 
 
 

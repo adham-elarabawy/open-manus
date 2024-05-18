@@ -13,6 +13,8 @@ I'm almost done with the joint connecting the middle and distal phalanges (label
 5. [Tools Used](#tools-used)
 
 ### Current Status & Logbook
+Just wrote up a whitepaper on my [MPC controller for impedance control using current sensing](assets/OpenManus_MPC_Controller.pdf)!
+
 I have a joint with an embedded magnetic encoder working. Currently working on a custom transmission to rotate the motor 90 degrees to be inline to keep the finger compact and the joints serially composable.
 
 <img src="assets/mk6.png" width="250"/> <img src="assets/mk6_section_view.png" width="250"/>  
