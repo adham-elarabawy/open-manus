@@ -4,46 +4,32 @@
 
 I'm currently focused on getting one joint completely built, controllable, and characterized.
 
-#### Development Checklist for One Finger (One Joint)
-##### 1. Initial Control Implementation
-- [ ] Basic Control System: Implement basic control algorithms (e.g., PID control) for motor positioning.
-- [ ] Integration: Assemble the joint with motors and initial control system.
+#### Development Checklist for single interphalangeal joint
+##### 1. Mechanical Design
+- [x] Implement basic gearbox.
+- [x] Test out basic gearbox.
+- [x] Implement custom rotated transmission for compactness.
+- [ ] Test out custom rotated transmission.
+- [ ] Implement clean design for finger housing (and easy assembly).
+- [ ] Compose the interphalangeal joints to make 2 joints in series.
+##### 2. Control System Design
+- [x] Derive MPC controller for impedance control via current sensing.
+- [x] Formalize MPC controller design in a small whitepaper.
+- [ ] Calibrate MPC controller gains.
+- [ ] Test out MPC controller on simple servo.
+- [ ] Test out MPC controller on custom interphalangeal joint.
+##### 3. Hardware Design
+- [ ] Implement basic end-to-end circuit (shunt resistor for current, encoder, microcontroller).
+- [ ] Decide if I want to centralize all of the electronics and control or if they should be partially distributed via CAN bus for easier wiring.
+- [ ] Design PCBs.
+- [ ] Get PCBs made.
 
-##### 2. Software-Controlled Compliance
-- [ ] Decide on how to measure torque (sensor or current modulation?).
-- [ ] Sensor Integration: Add force/torque sensors to the joint.
-- [ ] Feedback Loop: Develop control algorithms for compliance (e.g., impedance control).
-- [ ] Testing and Calibration: Test the compliance control and calibrate the system for optimal performance.
+### May 18th, 2024
+I designed the MPC controller for impedance control (stiffness/damping) using current sensing! I even wrote up a whitepaper that walks through the derivation and has a psuedocode section for algorithm implementation.
 
-##### 3. Deep Control Analysis
-- [ ] Data Collection: Collect data on joint movement, response time, and accuracy.
-- [ ] Performance Metrics: Analyze metrics such as settling time, rise time, overshoot, and steady-state error.
-- [ ] Optimization: Optimize control algorithms based on analysis results.
+I also worked a bit on the rotated transmission and figured out a way to make everything much more compact.
 
-##### 4. Adaptive Control Implementation
-- [ ] Algorithm Development: Implement adaptive control algorithms (e.g., MRAC, STR).
-- [ ] Simulation: Use simulation tools (e.g., MATLAB/Simulink) to test adaptive control strategies.
-- [ ] Real-world Testing: Apply adaptive control to the physical joint and iterate based on performance.
 
-##### 5. Torque Analysis
-- [ ] Calculation: Calculate the required torque for various tasks.
-- [ ] Sensor Feedback: Use torque sensors to measure actual torque output and loads.
-- [ ] Control Adjustments: Adjust control algorithms to ensure accurate torque modulation.
-
-##### 6. Estimating Full Hand Scale
-- [ ] Joint Measurement: Measure the physical dimensions and performance of the developed joint.
-- [ ] Scaling Calculation: Use the joint dimensions to estimate the size of the full hand.
-- [ ] 3D Modeling: Create a 3D model of the full hand based on the estimated dimensions.
-
-##### 7. Rendering and Visualization
-- [ ] Export Models: Export CAD models to 3D rendering software (e.g., Blender, KeyShot).
-- [ ] Generate Renders: Create visual renders and animations of the joint and full hand models.
-
-##### 8. Documentation and Iteration
-- [ ] Thorough Documentation: Document design choices, control algorithms, and performance data.
-- [ ] Iterative Improvement: Continuously test, refine, and improve each component based on feedback and performance.
-
-##### 9. Make first video
 
 ### May 5, 2024
 Updated the repo readme, added milestones, assets, logbook, and motivations.
